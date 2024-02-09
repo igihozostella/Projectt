@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Stella - Personal Blog Website</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">NS</a>
+        <nav class="nav-bar">
+            <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg></a></li>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#portrait">Portrait</a></li>
+            <li></li><a href="#blog">Blog</a></li>
+            <li></li><a href="#about">About Me</a></li>
+            <li></li><a href="#Contact">Contact</a></li>
+            </ul>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#portrait">Portrait</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ; msFilter:;"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg></a>
+            </ul>
+        </nav>   
+        <div> 
+            <button class="btn"> <a href="signin.html">Log In</a></button>     </div>
+        </div>
+        <div class="toggleMenu" onclick="toggleMenu()"></div>
+        
+    </header>
+
+
+<section class="home">
+            <div class="content">
+                <h1><span>Hi,</span> I'm Nadah Stella</h1>
+                <h2>Frontend Developer</h2>
+                <p>Lorem ipsum dolor sit amet consecte
+                    tur adipisicing elit. Ipsa, alias eos provident eum ul
+                    lam quis beatae nulla nisi dignissimos nemo quas conse
+                    quuntur voluptas distinctio odio rem, cupiditate aperia
+                    m temporibus commodi!</p>
+                    <div class="btn-box">
+                        <input type="text" placeholder="enter the email">
+                
+                        <a href="#">Subscribe</a>
+                       
+
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="C:\Users\hp\capstone\portrait.jpg" alt="">
+                </div>
+            
+</section>
+<section class="topics" id="portrait" aria-labelledby="topic-label">
+    <div class="container">
+    <div class="card topic-card">
+        <div class="card-content">
+           
+           
+            <h1 class="headline headline-2 section-title card-title" id="topic-label">
+                Portfolio
+            </h1>
+            <p class="card-text">
+                Do not miss out on the latest news about Travel tips, hotel review, food
+                guide ...
+            </p>
+            <div class="btn-group">
+            <button class="btn-icon" aria-label="previous" data-slider-prev>
+                <i  class='bx bx-left-arrow-alt'  name="arrow-back" aria-hidden="true"></i>
+            </button>
+
+            <button class="btn-icon" aria-label="next" data-slider-next>
+                <i class='bx bx-right-arrow-alt' name="arrow-foward" aria-hidden="true"></i>
+            </button>
+            
+            </div>
+
+            <div class="slider" data-slider>
+                <ul class="slider-list" data-slider-container>
+                    <li class="slider-item">
+                        <a href="#" class="slider-card">
+
+                            <figure class="slider-banner img-holder" style="--width: 507; --height:610">
+                                <img src="C:\Users\hp\capstone\procreator-ux-design-studio-VzJjPuk53sk-unsplash.jpg" width="507" height="610"
+                                loading="lazy" alt="sport"
+                                class="img-cover">
+                            </figure>
+
+                            <div class="slider-content">
+                                <span class="slider-title">Sport</span>
+                                <p class="slider-subtitle">18 Article</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="slider-item">
+                        <a href="#" class="slider-card">
+
+                            <figure class="slider-banner img-holder" style="--width: 507; --height:610">
+                                <img src="C:\Users\hp\capstone\procreator-ux-design-studio-VzJjPuk53sk-unsplash.jpg" width="507" height="610"
+                                loading="lazy" alt="Travel"
+                                class="img-cover">
+                            </figure>
+
+                            <div class="slider-content">
+                                <span class="slider-title">Boot Strap</span>
+                                <p class="slider-subtitle">18 Article</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="slider-item">
+                        <a href="#" class="slider-card">
+
+                            <figure class="slider-banner img-holder" style="--width: 507; --height:610">
+                                <img src="C:\Users\hp\capstone\procreator-ux-design-studio-VzJjPuk53sk-unsplash.jpg" width="507" height="610"
+                                loading="lazy" alt="Design"
+                                class="img-cover">
+                            </figure>
+
+                            <div class="slider-content">
+                                <span class="slider-title">Sport</span>
+                                <p class="slider-subtitle">18 Article</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="slider-item">
+                        <a href="#" class="slider-card">
+
+                            <figure class="slider-banner img-holder" style="--width: 507; --height:610">
+                                <img src="C:\Users\hp\capstone\procreator-ux-design-studio-VzJjPuk53sk-unsplash.jpg" width="507" height="610"
+                                loading="lazy" alt="Movie"
+                                class="img-cover">
+                            </figure>
+
+                            <div class="slider-content">
+                                <span class="slider-title">Sport</span>
+                                <p class="slider-subtitle">18 Article</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="slider-item">
+                        <a href="#" class="slider-card">
+
+                            <figure class="slider-banner img-holder" style="--width: 507; --height:610">
+                                <img src="C:\Users\hp\capstone\procreator-ux-design-studio-VzJjPuk53sk-unsplash.jpg" width="507" height="610"
+                                loading="lazy" alt="Lifestyle"
+                                class="img-cover">
+                            </figure>
+
+                            <div class="slider-content">
+                                <span class="slider-title">Sport</span>
+                                <p class="slider-subtitle">18 Article</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<section  id="blog">
+
+   <div class="post-container-2">
+    <div class="post-box">
+        <img src="C:\Users\hp\capstone\max-duzij-qAjJk-un3BI-unsplash.jpg" alt="" class="post-img">
+        <h2 class="category">Mobile</h2>
+        <a href="#" class="post-title">
+            How to Create Best UX Design With Adobe XD
+        </a>
+        <span class="post-date">12 Feb 2020</span>
+        <p class="post-decription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid provident fugiat dolorum quis nisi enim incidunt! Saepe alias consequatur, architecto eos pariatur, eligendi veritatis quod, vel dicta harum soluta voluptatem!</p>
+        <!--profile-->
+        <div class="profile">
+            <img src="C:\Users\hp\capstone\portrait.jpg" alt="" class="profile-img">
+            <span class="profile-name">Marque Brown</span>
+        </div>
+
+    </div>
+    <div class="post-box">
+        <img src="C:\Users\hp\capstone\max-duzij-qAjJk-un3BI-unsplash.jpg" alt="" class="post-img">
+        <h2 class="category">Mobile</h2>
+        <a href="#" class="post-title">
+            How to Create Best UX Design With Adobe XD
+        </a>
+        <span class="post-date">12 Feb 2020</span>
+        <p class="post-decription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid provident fugiat dolorum quis nisi enim incidunt! Saepe alias consequatur, architecto eos pariatur, eligendi veritatis quod, vel dicta harum soluta voluptatem!</p>
+        <!--profile-->
+        <div class="profile">
+            <img src="C:\Users\hp\capstone\portrait.jpg" alt="" class="profile-img">
+            <span class="profile-name">Marque Brown</span>
+        </div>
+
+    </div>
+    <div class="post-box">
+        <img src="C:\Users\hp\capstone\max-duzij-qAjJk-un3BI-unsplash.jpg" alt="" class="post-img">
+        <h2 class="category">Mobile</h2>
+        <a href="#" class="post-title">
+            How to Create Best UX Design With Adobe XD
+        </a>
+        <span class="post-date">12 Feb 2020</span>
+        <p class="post-decription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid provident fugiat dolorum quis nisi enim incidunt! Saepe alias consequatur, architecto eos pariatur, eligendi veritatis quod, vel dicta harum soluta voluptatem!</p>
+        <!--profile-->
+        <div class="profile">
+            <img src="C:\Users\hp\capstone\portrait.jpg" alt="" class="profile-img">
+            <span class="profile-name">Marque Brown</span>
+        </div>
+
+    </div>
+   </div>
+
+<button >
+    <button class="btn"><a href="blog.html">Read More</a></button>
+</button>
+    </div>
+</section>
+
+
+<section class="about" id="about">
+    
+    <div class="about-image">
+        <img src="C:\Users\hp\capstone\max-duzij-qAjJk-un3BI-unsplash.jpg" alt="">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure maiores aut ipsa dolorem
+             exercitationem tenetur cum. Impedit
+              dolorum nisi qui doloremque, iusto
+               sed, obcaecati exercitationem id 
+               eum, repudiandae cum beatae!</p>
+               <button class="btn">
+               <a href="#" >Read More</a>
+               </button>
+    </div>
+   
+    
+
+</section>
+<section id="Contact">
+    <footer>
+    <div class="footer-container">
+        <div class="sec aboutus">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis exceptita saepe esse.</p>
+            <ul class="sci">
+                <li><a href="#"><i class="bx bxl-facebook"></i></a></li>
+                <li><a href="#"><i class="bx bxl-instagram"></i></a></li>
+                <li><a href="#"><i class="bx bxl-twitter"></i></a></li>
+                <li><a href="#"><i class="bx bxl-linkedin"></i></a></li>
+            </ul>
+        </div>
+        <div class="sec quicklinks">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+        <div class="sec contactBx">
+            <h2>Contact Info</h2>
+            <ul class="info">
+                <li>
+                    <span><i class="bx-bxs-map-alt"></i></span>
+                    <span>6444 London street <br>Brighton PA 3344 <br>Uk</span>
+                </li>
+                <li>
+                    <span><i class='bx bx-envelope' ></i></span>
+                    <p><a href="#">codemyhobby@gmail.com</a></p>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        </div>
+        <div class="form">
+            <form action="#">
+                <label for="email"></label>
+                <input type="text" placeholder="email">
+                <label for="message"></label>
+                <textarea name="message" id="textarea" cols="20" rows="5" placeholder="Message Here"></textarea>
+                <button type="Send">Contact</button>
+            </form>
+            </div>
+</footer>
+</section>
+<script src="index.js"></script>
+</body>
+</html>

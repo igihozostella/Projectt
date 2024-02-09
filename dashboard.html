@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard.css">
+    <title>Stella - Personal Blog Website</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">NS</a>
+        <nav class="nav-bar">
+            <a href="#" class="active">Home</a>
+            <a href="#">Portrait</a>
+            <a href="#blog">Blog</a>
+            <a href="#about">About Me</a>
+            <a href="#Contact">Contact</a>
+        </nav>   
+        <div> 
+            <button class="btn"> <a href="signin.html">Log In</a></button>     </div>
+        </div>
+        
+    </header>
+    <section class="form-section">
+        <div class="container form__section-container">
+            <h2>Add Post</h2>
+            <div class="alert__message error">
+              <p>This is an error message</p>
+            </div>
+            <form action="" enctype="multipart/form-data">
+                <input type="text" placeholder="title">
+                <select>
+                    <option value="1">Java script</option>
+                    <option value="1">Java script</option>
+                    <option value="1">Java script</option>
+                    <option value="1">Java script</option>
+                    <option value="1">Java script</option>
+                </select>
+                <textarea  rows="10" placeholder="Body"></textarea>
+                <div class="form__control inline">
+                    <input type="checkbox" id="is_featured">
+                    <label for="is_featured" checked>Feature</label>
+                </div>
+                <div class="form__control">
+                    <label for="thumbnail">Add Thumbnail</label>
+                    <input type="file" id="thumbnail">
+                </div>
+                <button type="submit" class="btn">Add Post</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

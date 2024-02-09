@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "popping",sans-serif;
+}
+body{
+    background:#fefbf4;
+
+}
+.wrapper{
+    width: 330px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    text-align: center;
+}
+h1{
+    font-size: 2rem;
+    color: #e8a91d;
+    margin-bottom: 1.2rem;
+}
+form input{
+    width: 92%;
+    outline: none;
+   border: none;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: #f1f1f1;
+}
+button{
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    background: #fff;
+    cursor: pointer;
+    background: #93cc52;
+
+}
+button:hover{
+    background:#F1D7B0;
+}
+input:focus{
+    border: 1px solid wheat;
+}
+.terms{
+    margin-top: 0.2rem;
+}
+.terms input{
+    height: 1rem;
+    width: 1rem;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.terms label{
+    font-size: 0.7rem;
+}
+.terms a{
+    color: rgb(85, 121, 86);
+    text-decoration: none;
+}
+.member{
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    color: #3a2e18;
+}
+.member a{
+    color: rgb(95, 146, 97);
+    text-decoration: none;
+}
+.recover {
+    text-align: right;
+    font-size: 0.7rem;
+    margin: 0.3rem 1.4rem 0 0;
+}
+.recover a{
+    text-decoration: none;
+    color: #43683e;
+}
+label{
+    color: #5c564c;
+}
